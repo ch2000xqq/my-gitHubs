@@ -1,3 +1,5 @@
+
+import tx from '../img/tx.jpg'
 export interface Ornament {
   id: string;
   src: string;
@@ -30,9 +32,9 @@ export const ornamentImages: Ornament[] = Array.from({ length: 15 }, (_, i) => {
   const pos = generatePosition(i, 15);
   return {
     id: `ornament_${i + 1}`,
-    src: 'https://pic.rmb.bdstatic.com/bjh/3f134665fce/241103/6b88b2748613f652173f1d8f9844f4c0.jpeg',
-    title: `Memory ${i + 1}`,
-    description: 'Click to upload your photo',
+    src: tx,
+    title: `传说这是一只猪的头像`,
+    description: '圣诞节快乐',
     position: pos,
     scale: 0.3
   };
